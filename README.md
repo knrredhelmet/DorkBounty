@@ -1,2 +1,2 @@
 # DorkBounty
-Collection of Google Dorks
+Collection of Google Dorks.
