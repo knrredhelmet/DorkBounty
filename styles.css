@@ -1,0 +1,64 @@
+/* Basic body styles */
+body {
+    background-color: black;
+    color: white;
+    margin: 0; /* Remove default margin */
+}
+
+/* Sticky header styling */
+header {
+    position: sticky; /* Ensure the header is sticky */
+    top: 0; /* Stick to the top */
+    background-color: #000; /* Background color */
+    z-index: 1000; /* Ensure it is above other content */
+}
+
+/* Container styling */
+.container {
+    max-width: 1000px; /* Limit container width */
+    margin: auto; /* Center container */
+}
+
+/* Input field styling */
+#domainInput {
+    margin-bottom: 20px; /* Space between input and results */
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+/* Results container styling */
+#results {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Result items styling */
+.result-item {
+    margin-bottom: 20px;
+}
+
+.result-item strong {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.result-item h3 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.result-item p {
+    margin: 5px 0;
+    font-size: 20px;
+}
+
+.result-item a {
+    color: #69f0ae;
+    text-decoration: none;
+}
+
+.result-item a:hover {
+    text-decoration: underline;
+}
