@@ -40,11 +40,6 @@ document.addEventListener('DOMContentLoaded', function () {
             const dorkItem = document.createElement('div');
             dorkItem.className = 'result-item';
 
-            // Add a number before the title
-            const number = document.createElement('strong');
-            number.textContent = `${index + 1}. `;
-            dorkItem.appendChild(number);
-
             const title = document.createElement('h3');
             title.textContent = dork.title;
             dorkItem.appendChild(title);

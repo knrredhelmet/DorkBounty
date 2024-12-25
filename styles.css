@@ -2,7 +2,11 @@
 body {
     background-color: black;
     color: white;
-    margin: 0; /* Remove default margin */
+}
+h1 {
+    text-align: center;
+    font-family: 'Rubik Vinyl', sans-serif;
+    letter-spacing: 2px;
 }
 
 /* Sticky header styling */
@@ -12,36 +16,17 @@ header {
     background-color: #000; /* Background color */
     z-index: 1000; /* Ensure it is above other content */
 }
-
-/* Container styling */
-.container {
-    max-width: 1000px; /* Limit container width */
-    margin: auto; /* Center container */
-}
-
 /* Input field styling */
 #domainInput {
-    margin-bottom: 20px; /* Space between input and results */
+    margin-bottom: 10px; /* Space between input and results */
     width: 100%;
     box-sizing: border-box;
     font-size: 20px;
-}
-
-/* Results container styling */
-#results {
-    width: 100%;
-    padding: 10px;
-    box-sizing: border-box;
 }
 
 /* Result items styling */
 .result-item {
     margin-bottom: 20px;
-}
-
-.result-item strong {
-    font-size: 20px;
-    margin-right: 5px;
 }
 
 .result-item h3 {
@@ -61,4 +46,14 @@ header {
 
 .result-item a:hover {
     text-decoration: underline;
+}
+
+footer{
+    text-align: center;
+}
+footer a{
+    color: white;
+}
+footer a:hover {
+    color:#69f0ae
 }
